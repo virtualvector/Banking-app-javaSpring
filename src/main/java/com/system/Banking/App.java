@@ -2,14 +2,12 @@ package com.system.Banking;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-
-
-
-
 /**
- * Hello world!
+ * Banking application 
+ * 
  *
  */
+
 public class App {
 	public static void main(String[] args) {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("appContext.xml");

@@ -29,15 +29,7 @@ public class BankDao {
 		jdbcTemplate = new JdbcTemplate(ds);
 	}
 
-//	
-//	//For Fetching the count of rows from table
-//	int getCount() {
-//		qry = "select count(*) from accountDetails";
-//		
-//		return jdbcTemplate.queryForObject(qry, Integer.class);
-//		
-//	}
-//	
+	
 	String getBalance(String accN) {
 		qry = "select userName from accountDetails where accountNumber = ? ";
 
